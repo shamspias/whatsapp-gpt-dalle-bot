@@ -82,7 +82,7 @@ def generate_image(prompt, number, image_size, image_width):
     return image_url
 
 
-@app.route('/pocketgod', methods=["POST", "GET"])
+@app.route('/chby', methods=["POST", "GET"])
 @cross_origin()
 def chat():
     if request.method == "GET":
